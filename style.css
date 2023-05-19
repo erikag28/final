@@ -1,0 +1,61 @@
+
+.hero{
+  height: 350px;
+  background: url(images/black.jpg);
+  background-position: center;
+  margin-bottom: 20px;
+}
+div.left{
+  background: url(images/catering.jpeg);
+  background-size: cover;
+}
+div.middle{
+  background: url(images/noodles.jpeg);
+  background-size: cover;
+}
+div.right{
+  background: url(images/platter.jpg);
+  background-size: cover;
+}
+div.container{
+ border: 5px solid #36281b; 
+ 
+}
+div.left, div.middle, div.right{
+border: 3px dotted green;
+width: 30%;
+height: 250px;
+} 
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* layout---------*/
+#wrapper {
+  margin: 0 6%;
+  border: #36281b;
+}
+header{
+  background-color: rgb(52, 40, 26);
+  color: white;
+  
+}
+ img{
+  width: 100%;
+ }
+ ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+ }
+ .slideshow{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ .cycle-slideshow img{
+  max-width:80%;
+ } 

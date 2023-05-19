@@ -1,0 +1,83 @@
+div.content{
+}
+
+header{
+  overflow: hidden;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+header h2{
+  margin: 0;
+  padding: 0;
+}
+header img {
+float: left;
+margin-right: 20px;
+}
+.teaser img{
+  width: 40%;
+  float: left;
+}
+nav{
+  margin: 0;
+  padding:0;
+  background-color:rgba(166, 117, 74, 0.857);
+
+}
+nav ul{
+  margin: 0;
+   padding: 0;
+   list-style-type: none;
+   background-color: rgba(154, 235, 217, 0);
+   width:100%; 
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  background-color: rgba(226, 147, 99, 0.621);
+}
+
+.active{
+  background-color: rgba(181, 126, 77, 0.884);
+}
+
+@media screen and (min-width: 651px){
+
+
+  li{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    box-sizing: border-box;
+  }
+  nav{
+    overflow: hidden;
+ }
+ .teaser, .mission.article{
+ width: 33%;
+ float:left;
+ box-sizing: border-box;
+ padding: 0 10px;
+}
+.content{
+  overflow: hidden;
+}
+}
+@media screen and (max-width:650px){
+  ul{ flex-direction: column;
+
+  }
+  li{ width: 100%;
+
+  }
+  
+}
